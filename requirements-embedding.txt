@@ -1,0 +1,5 @@
+# Versions observed in the verified local reference environment.
+# Apple Silicon macOS is required by MLX.
+mlx==0.31.2
+mlx-embeddings==0.1.0
+transformers==5.17.0

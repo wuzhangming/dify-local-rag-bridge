@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Bridge runtime data: originals, manifests, compiled OCR binary, and credentials
+dify_bridge/data/
+!dify_bridge/data/.gitkeep
+
+# Secrets and local configuration
+.env
+.env.*
+*.token
+*.key
+*.pem
+
+# Local model files and generated artifacts
+models/
+*.mlx
+*.safetensors
+*.log
+
+# macOS
+.DS_Store
